@@ -1,0 +1,131 @@
+/*
+    Document   : Content/card-model.css
+    Created on : 2014-02-04 07:26 AM
+    Author     : GaiusSensei
+*/
+ root {
+    display: block;
+}
+body {
+    background-color: #fff;
+}
+.card {
+    width: 250px;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    border: 1px #c5c5c5 solid;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.well {
+    width: 230px;
+    height: 330px;
+    margin: 10px;
+    background-image: url('Images/card.png');
+}
+#card-image {
+    width: inherit;
+    height: 170px;
+    background-image: url('http://i.imgur.com/hoeAB1r.jpg');
+    background-size: contain;
+    background-color: #656565;
+}
+#card-leftwing {
+    width: 40px;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+#card-leftwing-top {
+    height: 70px;
+    background-color: #fff;
+}
+#card-leftwing-bot {    
+    height:0;
+    border-width:20px 40px 0 0;
+    border-style:solid;
+    border-color:#fff transparent transparent #fff;
+}
+#card-rightwing {
+    float: right;
+    width: 40px;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+#card-rightwing-top {
+    height: 150px;
+    background-color: #fff;
+}
+#card-rightwing-bot {    
+    height:0;
+    border-width:20px 0 0 40px;
+    border-style:solid;
+    border-color:#fff transparent #fff transparent;
+}
+#card-pv-val {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 1em;
+    color: #656565;
+    border-bottom: 1px #656565 solid;
+}
+#card-pv-lbl {
+    width: 100%;
+    font-family: 'Courier New';
+    font-size: 0.6em;
+    color: #656565;    
+}
+#card-dodge {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #656565;
+    border-bottom: 1px #656565 solid; 
+}
+#card-dodge-lbl {
+    width: 100%;
+    font-family: 'Courier New';
+    font-size: 0.6em;
+    color: #656565;    
+}
+#card-name {
+    width: 100%;
+    font-size: 0.8em;
+    border-bottom: 1px #656565 solid; 
+    color: #656565;
+}
+#card-model-icn {
+    float: right;
+    text-align: right;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
