@@ -6,8 +6,8 @@
 */
 head.js("Content/card-model.css");
 head.ready(function readyF(){
-    if (getURLParameter("dodge") !== null) {
-        document.querySelector("#card-dodge-val").innerHTML = getURLParameter("dodge");
+    if (getURLParameter("armor") !== null) {
+        document.querySelector("#card-armor-val").innerHTML = getURLParameter("armor");
     }
     if (getURLParameter("name") !== null) {
         document.querySelector("#card-model-name").innerHTML = getURLParameter("name");
